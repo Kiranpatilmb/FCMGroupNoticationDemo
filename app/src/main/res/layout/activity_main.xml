@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:text="Enter the Event-Name you want to subscribe"/>
+    <EditText
+        android:id="@+id/edt_topic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Event Name"
+        android:layout_margin="30dp" />
+    <Button
+        android:id="@+id/btn_create_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#BC0444"
+        android:layout_gravity="center"
+        android:text="Create Event" />
+    <Button
+        android:id="@+id/btn_notify_all"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#BC0444"
+        android:layout_gravity="center"
+        android:text="Notify All" />
+
+
+    <Button
+        android:id="@+id/btn_notify"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:backgroundTint="#BC0444"
+        android:layout_gravity="center"
+        android:text="Notify To Subscribed Event Users" />
+    <Button
+        android:id="@+id/btn_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:backgroundTint="#03A9F4"
+        android:layout_gravity="center"
+        android:text="Event List" />
+
+</LinearLayout>
